@@ -9,23 +9,23 @@ gd= float (input ("Enter your marks: "))
 if gd<25:
    print ("Your final grade is F")
 
-elif gd>=25 and gd<45:
+elif gd>=25 and gd<=45:
 
    print ("Your final grade is E")
 
-elif gd>45 and gd<50:
+elif gd>45 and gd<=50:
 
    print ("Your final grade is D")
 
-elif gd>50 and gd<60:
+elif gd>50 and gd<=60:
 
    print ("Your final grade is C")
 
-elif gd>60 and gd<80:
+elif gd>60 and gd<=80:
 
    print ("Your final grade is B")
 
-elif gd>80 and gd<100:
+elif gd>80 and gd<=100:
 
    print ("Your final grade is A")
 
